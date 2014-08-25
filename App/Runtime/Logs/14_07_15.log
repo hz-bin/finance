@@ -1,0 +1,16 @@
+[ 2014-07-15T22:34:11+08:00 ] 127.0.0.1 /wb_Finance/Expend/expend_add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+NOTIC: [8] Undefined index: add_category D:\Program Files\wamp\www\wb_Finance\App\Lib\Action\ExpendAction.class.php 第 81 行.
+NOTIC: [8] Undefined index: add_money D:\Program Files\wamp\www\wb_Finance\App\Lib\Action\ExpendAction.class.php 第 82 行.
+NOTIC: [8] Undefined index: add_time D:\Program Files\wamp\www\wb_Finance\App\Lib\Action\ExpendAction.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.012115s ]
+SQL: SELECT * FROM `wb_category` WHERE ( item='' ) LIMIT 1   [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `wb_bill` [ RunTime:0.013585s ]
+SQL: SHOW COLUMNS FROM `wb_user` [ RunTime:0.012370s ]
+SQL: SELECT * FROM `wb_user` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.001228s ]
+SQL: INSERT INTO `wb_bill` (`money`,`time`,`categoryId`,`userId`,`typeId`) VALUES (0,'',null,9,1) [ RunTime:0.001316s ]
+ERR: Column 'categoryId' cannot be null
+ [ SQL语句 ] : INSERT INTO `wb_bill` (`money`,`time`,`categoryId`,`userId`,`typeId`) VALUES (0,'',null,9,1)
+

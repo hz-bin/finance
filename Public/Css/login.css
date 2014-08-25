@@ -1,0 +1,74 @@
+#login, #register {
+	background: url(../Images/login_form.png) no-repeat;
+	height: 250px;
+	width: 300px;
+	padding: 80px 50px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.titleInfo {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.result {
+	font-size: 20px;
+	color: red;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.name-icon {
+	background: url(../Images/login-icon.png) no-repeat 0px 0px;
+}
+
+.pwd-icon {
+	background: url(../Images/login-icon.png) no-repeat -30px 0px;
+}
+
+.control {
+	line-height: 20px;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+#name, #pwd, #repwd {
+	height: 25px;
+	font-size: 18px;
+	margin-left: 15px;
+}
+
+#btnLogin, #btnRegister, #returnLogin {
+	margin-left: 50px;
+	margin-bottom: 10px;
+	height: 35px;
+	width: 220px;
+}
+
+#btnLogin {
+	margin-top: 10px;
+}
+
+.line {
+	border-bottom: 1px dashed #09c;
+	margin-bottom: 10px;
+}
